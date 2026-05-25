@@ -24,4 +24,4 @@ docs/           → architecture, roadmap, contributing guides (docs.openmodels.
 
 ## Platform
 
-→ **openmodels.run** — search, compare, telemetry, skills, insights
+**www.openmodels.run** — search, compare, telemetry, skills, insights
