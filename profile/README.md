@@ -12,19 +12,26 @@ Track latency, uptime, pricing, rate limits, capabilities, and provider mappings
 
 | Models | Providers | Mappings | Skills | MCP Servers |
 |:---:|:---:|:---:|:---:|:---:|
-| 102 | 49 | 159 | 80+ | 50+ |
+| 125 | 51 | 197 | 158 | 130 |
 
 ---
 
 ## What OpenModels covers
 
 - **Models** — canonical registry of LLM models: capabilities, context windows, modalities, licensing, open-weight status
-- **Providers** — 49 inference providers with API base URLs, auth types, regions, free tiers, trial credits
+
+- **Providers** — 51 inference providers with API base URLs, auth types, regions, free tiers, trial credits
+
 - **Mappings** — per-provider rate limits, pricing, and model availability
+
 - **Telemetry** — real-time latency (TTFT p50/p95/p99) and uptime monitoring across providers
-- **MCP Servers** — registry of 50+ Model Context Protocol servers
-- **Skills** — 80+ ready-to-use AI agent prompts and workflows for Claude Code, Cursor, Kiro, Copilot, Windsurf and more
+
+- **MCP Servers** — registry of 130 Model Context Protocol servers
+
+- **Skills** — 158 ready-to-use AI agent prompts and workflows for Claude Code, Cursor, Kiro, Copilot, Windsurf and more
+
 - **Insights** — data-driven analysis and benchmarks based on live telemetry
+
 - **CLI** — command-line interface for querying the registry
 
 ---
@@ -34,6 +41,7 @@ Track latency, uptime, pricing, rate limits, capabilities, and provider mappings
 ```text
 openmodels/     → public YAML registry (models, providers, mappings, schemas)
 skills/         → community AI agent skills (github.com/openmodelsrun/skills)
+mcp/            → Model Context Protocol server registry
 cms/            → Payload CMS for Insights content (cms.openmodels.run)
 docs/           → architecture, roadmap, contributing guides (docs.openmodels.run)
 platform/       → intelligence platform — Next.js + NestJS + Python workers
@@ -50,14 +58,23 @@ platform/       → intelligence platform — Next.js + NestJS + Python workers
 ## Roadmap
 
 - [x] Registry (models, providers, mappings)
+
 - [x] Telemetry (Anthropic, Groq, AWS, DeepSeek, Alibaba, Google AI)
+
 - [x] Skills
+
 - [x] MCP Servers registry
+
 - [x] Insights
+
 - [x] CLI
+
 - [ ] Public API
+
 - [ ] SDK (`@openmodels/sdk`)
+
 - [ ] User accounts + Pro plan
+
 - [ ] i18n (Chinese, Russian, Spanish)
 
 ---
