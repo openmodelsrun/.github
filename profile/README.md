@@ -12,7 +12,7 @@ Track latency, uptime, pricing, rate limits, capabilities, and provider mappings
 
 | Models | Providers | Mappings | Skills | MCP Servers |
 |:---:|:---:|:---:|:---:|:---:|
-| 125 | 51 | 197 | 158 | 130 |
+| 132 | 52 | 205 | 215 | 187 |
 
 ---
 
@@ -20,15 +20,15 @@ Track latency, uptime, pricing, rate limits, capabilities, and provider mappings
 
 - **Models** — canonical registry of LLM models: capabilities, context windows, modalities, licensing, open-weight status
 
-- **Providers** — 51 inference providers with API base URLs, auth types, regions, free tiers, trial credits
+- **Providers** — 52 inference providers with API base URLs, auth types, regions, free tiers, trial credits
 
 - **Mappings** — per-provider rate limits, pricing, and model availability
 
 - **Telemetry** — real-time latency (TTFT p50/p95/p99) and uptime monitoring across providers
 
-- **MCP Servers** — registry of 130 Model Context Protocol servers
+- **MCP Servers** — registry of 187 Model Context Protocol servers
 
-- **Skills** — 158 ready-to-use AI agent prompts and workflows for Claude Code, Cursor, Kiro, Copilot, Windsurf and more
+- **Skills** — 215 ready-to-use AI agent prompts and workflows for Claude Code, Cursor, Kiro, Copilot, Windsurf and more
 
 - **Insights** — data-driven analysis and benchmarks based on live telemetry
 
@@ -69,13 +69,13 @@ platform/       → intelligence platform — Next.js + NestJS + Python workers
 
 - [x] CLI
 
-- [ ] Public API
+- [x] Public API
 
-- [ ] SDK (`@openmodels/sdk`)
+- [x] SDK (`@openmodels/sdk`)
+
+- [x] i18n (Chinese, Russian, Spanish)
 
 - [ ] User accounts + Pro plan
-
-- [ ] i18n (Chinese, Russian, Spanish)
 
 ---
 
