@@ -1,10 +1,10 @@
 # OpenModels
 
-**Open Registry & Intelligence Platform for AI Infrastructure**
+**Open Registry & Telemetry for AI Infrastructure**
 
-Discover, compare and monitor LLM models, inference providers, MCP servers and agent skills using open data and real-time telemetry.
+Discover, compare and monitor LLM models, inference providers, MCP servers and agent skills with source-transparent pricing, context limits, capabilities, access terms and live provider health.
 
-Track latency, uptime, pricing, rate limits, capabilities, and provider mappings — in one place.
+Everything in one place — built on open data, community-maintained.
 
 ---
 
@@ -12,27 +12,31 @@ Track latency, uptime, pricing, rate limits, capabilities, and provider mappings
 
 | Models | Providers | Mappings | Skills | MCP Servers |
 |:---:|:---:|:---:|:---:|:---:|
-| 132 | 52 | 205 | 215 | 187 |
+| 203 | 52 | 277 | 260 | 230 |
 
 ---
 
 ## What OpenModels covers
 
-- **Models** — canonical registry of LLM models: capabilities, context windows, modalities, licensing, open-weight status
+- **Models** — canonical registry of LLM models: capabilities, context windows, modalities, licensing, open-weight status, published benchmark results
 
 - **Providers** — 52 inference providers with API base URLs, auth types, regions, free tiers, trial credits
 
-- **Mappings** — per-provider rate limits, pricing, and model availability
+- **Mappings** — per-provider pricing, rate limits and model availability; prices are always tied to a provider, never presented as a global model property
 
-- **Telemetry** — real-time latency (TTFT p50/p95/p99) and uptime monitoring across providers
+- **Compare & Calculator** — side-by-side model comparison and workload cost estimates based on your own token volumes, cache assumptions and request counts
 
-- **MCP Servers** — registry of 187 Model Context Protocol servers
+- **Telemetry** — provider status and 30-day uptime history from hourly health checks across all 52 providers, plus latency (TTFT p50/p95/p99) monitoring
 
-- **Skills** — 215 ready-to-use AI agent prompts and workflows for Claude Code, Cursor, Kiro, Copilot, Windsurf and more
+- **MCP Servers** — registry of 230 Model Context Protocol servers across 11 categories
 
-- **Insights** — data-driven analysis and benchmarks based on live telemetry
+- **Skills** — 260 ready-to-use AI agent prompts and workflows for Claude Code, Cursor, Kiro, Copilot, Windsurf, Gemini CLI, Aider and more
 
-- **CLI** — command-line interface for querying the registry
+- **Insights** — data-driven analysis and benchmarks based on live registry and telemetry data
+
+- **API, SDK & CLI** — public REST API, `@openmodels/sdk` and a command-line interface for querying the registry
+
+- **Multilingual** — interface available in English, Chinese, Russian and Spanish
 
 ---
 
@@ -43,7 +47,7 @@ openmodels/     → public YAML registry (models, providers, mappings, schemas)
 skills/         → community AI agent skills (github.com/openmodelsrun/skills)
 mcp/            → Model Context Protocol server registry
 cms/            → Payload CMS for Insights content (cms.openmodels.run)
-docs/           → architecture, roadmap, contributing guides (docs.openmodels.run)
+docs/           → architecture, contributing guides, API reference (docs.openmodels.run)
 platform/       → intelligence platform — Next.js + NestJS + Python workers
 ```
 
@@ -51,31 +55,7 @@ platform/       → intelligence platform — Next.js + NestJS + Python workers
 
 ## Platform
 
-→ **[openmodels.run](https://www.openmodels.run)** — search, compare, telemetry, skills, MCP servers, insights
-
----
-
-## Roadmap
-
-- [x] Registry (models, providers, mappings)
-
-- [x] Telemetry (Anthropic, Groq, AWS, DeepSeek, Alibaba, Google AI)
-
-- [x] Skills
-
-- [x] MCP Servers registry
-
-- [x] Insights
-
-- [x] CLI
-
-- [x] Public API
-
-- [x] SDK (`@openmodels/sdk`)
-
-- [x] i18n (Chinese, Russian, Spanish)
-
-- [ ] User accounts + Pro plan
+→ **[openmodels.run](https://www.openmodels.run)** — search, compare, calculator, provider status, skills, MCP servers, insights
 
 ---
 
