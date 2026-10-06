@@ -1,5 +1,7 @@
 # OpenModels
 
+[![OpenModels - Open Registry for AI Infrastructure](https://raw.githubusercontent.com/openmodelsrun/.github/main/profile/og-image.jpg)](https://www.openmodels.run)
+
 **Open Registry & Telemetry for AI Infrastructure**
 
 Discover, compare and monitor LLM models, inference providers, MCP servers and agent skills with source-transparent pricing, context limits, capabilities, access terms and live provider health.
@@ -12,7 +14,7 @@ Everything in one place — built on open data, community-maintained.
 
 | Models | Providers | Mappings | Skills | MCP Servers |
 |:---:|:---:|:---:|:---:|:---:|
-| 203 | 52 | 277 | 260 | 230 |
+| 212 | 52 | 282 | 260 | 230 |
 
 ---
 
